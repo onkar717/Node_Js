@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/653b4859442035f93c60d797
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Onkar shelke",
+    "subscribertoChannel": "Web Dev Simplified"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/653b4c6b22532dde78a8bbd9
+
+
+###
+
+PATCH http://localhost:3000/subscribers/653b4da815e54f35e493ced6
+Content-Type: application/json
+
+{
+    "name" :New Name
+}
